@@ -25,11 +25,11 @@ class MyStreamListener(tweepy.StreamListener):
             print("can't print character")
         print(DemCandidates)
 
-consid = 'd5P1uyUG97sIfpSpNrGeSnnZH'
+consid = 'XXX'
 
-secret = 'lfNQCvqvpLLFLlZ3V0uGA9FitfnCrp5E0f834OcKfHVi5yYyAc'
-actk = '1041405628655263754-x8G3lxMFfPG2hXQzVGZjipjqSVGOjN'
-sctk = 'PRtGHfHtpAvIdPemLpc03xrVpgjTBqYsWraoO0XoG0Bi1'
+secret = 'XXX'
+actk = 'XXX'
+sctk = 'XXX'
 auth = tweepy.OAuthHandler(consid,secret)
 auth.set_access_token(actk,sctk)
 api = tweepy.API(auth)
